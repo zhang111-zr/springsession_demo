@@ -10,6 +10,7 @@ public class TestController {
     @GetMapping("/set")
     public String setSession(HttpSession session){
         System.out.println("这是我的第一次修改代码---叶龙");
+        System.out.println("这是我的第一次修改代码---zzr");
         session.setAttribute("msg","Hello");
         return "OK";
     }
