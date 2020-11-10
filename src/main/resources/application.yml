@@ -12,5 +12,4 @@ spring:
   thymeleaf:
     #禁用模板缓存
     cache: false
-hgjklkk
-aaaaaaaaaaaaaaaa
+
