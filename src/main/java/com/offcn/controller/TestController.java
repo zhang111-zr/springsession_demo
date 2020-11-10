@@ -1,7 +1,6 @@
 package com.offcn.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
@@ -10,6 +9,7 @@ import javax.servlet.http.HttpSession;
 public class TestController {
     @GetMapping("/set")
     public String setSession(HttpSession session){
+        System.out.println("这是我的第一次修改代码---叶龙");
         session.setAttribute("msg","Hello");
         return "OK";
     }
