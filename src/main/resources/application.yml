@@ -6,10 +6,11 @@ spring:
     port: 6379
     password: 123456
   session:
-    store-type: redis #session存储方式
-    timeout: 1800     #session过期时间 单位：秒
-  #开始thymeleaf设置
+    store-type: redis #session瀛樺偍鏂瑰紡
+    timeout: 1800     #session杩囨湡鏃堕棿 鍗曚綅锛氱
+  #寮�濮媡hymeleaf璁剧疆
   thymeleaf:
-    #禁用模板缓存
+    #绂佺敤妯℃澘缂撳瓨
     cache: false
 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
